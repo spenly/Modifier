@@ -539,6 +539,7 @@
 				E55F521D1E843542005FDB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E55F521E1E843542005FDB8B /* Build configuration list for PBXNativeTarget "ModifierTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +548,7 @@
 				E55F52201E843542005FDB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E55F52211E843542005FDB8B /* Build configuration list for PBXNativeTarget "ModifierUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +557,7 @@
 				E55F52231E843542005FDB8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

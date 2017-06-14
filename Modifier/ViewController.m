@@ -119,7 +119,15 @@
     NSString *strSysVersion = [[UIDevice currentDevice] systemVersion];
     NSString *localeIdentifier = [[NSLocale currentLocale] localeIdentifier];
     
-    HKDevice *device = [[HKDevice alloc] initWithName:strName manufacturer:@"Apple" model:strModel hardwareVersion:strModel firmwareVersion:strModel softwareVersion:strSysVersion localIdentifier:localeIdentifier UDIDeviceIdentifier:localeIdentifier];
+    HKDevice *device = [[HKDevice alloc] initWithName:strName
+                                         manufacturer:@"Apple"
+                                                model:strModel
+                                      hardwareVersion:@"iPhone9,2"
+                                      firmwareVersion:strModel
+                                      softwareVersion:strSysVersion
+                                      localIdentifier:localeIdentifier
+                                  UDIDeviceIdentifier:localeIdentifier
+                        ];
     
     HKQuantitySample *stepConsumedSample = [HKQuantitySample quantitySampleWithType:stepConsumedType quantity:stepQuantityConsumed startDate:startDate endDate:endDate device:device metadata:nil];
     
